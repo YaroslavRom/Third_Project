@@ -183,6 +183,8 @@ menu a{
 
 
 
+
+
 .slider{
     overflow: hidden;
     display: flex;
@@ -197,9 +199,34 @@ margin-bottom: 30px;
 
 
 
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+
+}
 
 
+.log{
 
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #767676;
+ 
+   
+
+    margin: 0 auto;
+    padding-right: 746px;
+    margin-bottom: 27px;
+
+}
 
 .mid{
     display: flex;
@@ -249,12 +276,11 @@ margin-bottom: 30px;
     height: 117px;
 }
 .mid-block{
-    background-color: gold;
     width: 176px;
-    height: 255px;
+    height: auto;
     padding-left: 33px;
     padding-right: 52px;
-    margin-bottom: 110px;
+    margin-bottom: 71px;
 
    
 
@@ -262,14 +288,28 @@ margin-bottom: 30px;
 }
 .mid-txt{
     font-family: 'PT Sans';
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 30px;
     font-weight: 400;
     letter-spacing: 0.025em;
-    color: #ffffff;
-    line-height:22px;
-    font-style: normal;
-    text-decoration: none;
-    padding-bottom: 80px;
+    color: #767676;
+
+}
+
+.news-microwave{
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: underline;
+    color: #010101;
+}
+
+.bullet-list{
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #767676;
 
 }
 
@@ -286,14 +326,11 @@ margin-bottom: 30px;
 }
 .news-header{
     font-family: 'PT Sans';
-    font-size: 40px;
+    font-size: 18px;
+    line-height: 30px;
     font-weight: 400;
     letter-spacing: 0.025em;
-    color: #ffffff;
-    line-height:22px;
-    font-style: normal;
-    text-decoration: none;
-    padding-top: 26px;
+    color: #767676;
 
 }
 
@@ -408,17 +445,36 @@ width: 184px;
 .pager-txt{
     display: flex;
     flex-direction: row;
+
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.565em;
+    color: #767676;
+   }
+.pager-mid-txt{
+    font-size: 18px;
+    color: #444444;
+    font-family: 'PT Sans';
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.565em;
 }
+
+
+
+
 
 
 .right-mid-bottom{
     width: 780px;
-    display: flex;
-    justify-content: space-between;
     flex-direction: row;
     border-top: 2px solid #777777;
     padding-top: 29px;
 
+    display: flex;
+    justify-content: stretch;
 
 }
 .text-block-1{
@@ -428,6 +484,12 @@ width: 184px;
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #767676;
+
+    display: flex;
+    justify-content: flex-start;
+    width: 375px;
+    flex-wrap: wrap;
+    margin-right: 36px;
 }
 .text-block-2{
     font-family: 'PT Sans';
@@ -436,6 +498,11 @@ width: 184px;
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #767676;
+
+    display: flex;
+    justify-content: flex-end;
+    width: 375px;
+    flex-wrap: wrap;
 }
 
 
@@ -518,7 +585,7 @@ text-decoration: underline;
 .b-logo{
     width: 40px;
     height: 38px;
-margin-inline-end: 5px;
+    margin-inline-end: 5px;
 }
 
 
