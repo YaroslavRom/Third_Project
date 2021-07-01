@@ -298,7 +298,7 @@ width: 184px;
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #767676;
-    
+
 }
 .description{
     display: flex;
@@ -328,6 +328,24 @@ width: 184px;
     justify-content: space-between;
     flex-direction: row;
 
+
+
+}
+.text-block-1{
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #767676;
+}
+.text-block-2{
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #767676;
 }
 
 .footer-b{
