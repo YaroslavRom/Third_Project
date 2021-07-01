@@ -105,7 +105,6 @@ footer{
 
 }
 .responsive-link:hover{
-    text-decoration-style: none;
     border: 0px;
     padding-bottom: 0px;
     max-height: 46px;
@@ -165,6 +164,7 @@ menu a{
 
 }
 
+
 .slider{
     overflow: hidden;
     display: flex;
@@ -185,18 +185,43 @@ margin-bottom: 30px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    justify-content: space-around;
 }
 
 .left-mid{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
 
+.x-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.mid-x{
+    width: auto;
+    height: auto;
+    font-family: 'PT Sans';
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #444444;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.X-logo{
+    width: 97px;
+    height: 117px;
 }
 .mid-block{
-    background-color: #777777;
-    width: 265px;
-    height: auto;
-padding-left: 33px;
+    background-color: gold;
+    width: 176px;
+    height: 255px;
+    padding-left: 33px;
     padding-right: 52px;
+    margin-bottom: 110px;
 
    
 
@@ -212,11 +237,6 @@ padding-left: 33px;
     font-style: normal;
     text-decoration: none;
     padding-bottom: 80px;
-
-}
-.archive{
-    text-decoration: underline;
-    margin-left: 143px;
 
 }
 
@@ -248,25 +268,66 @@ padding-left: 33px;
     height: auto;
 
 }
-.right-mid-txt{
-    font-family: 'PT Sans';
-    font-size: 15px;
-    line-height: 22px;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #767676;
-    width: 569px;
-    height: 493px;
-
+.right-mid-bottom{
 
 }
-.m-r-header{
+.product-format{
+    width: 250px;
+    height: 360px;
+    background-color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.product-format-inside{
+    display: flex;
+    margin: 20px 20px 20px 14px ;
+    flex-direction: column;
+
+}
+.no-img{
+    width: 210px;
+    height: 209px;
+}
+.product-txt{
+width: 184px;
+    height: 33px;
     font-family: 'PT Sans';
-    font-size: 40px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 18px;
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #767676;
+    
+}
+.description{
+    display: flex;
+    margin: 0 auto      ;
+}
+.product-price-cart{
+ display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-family: 'PT Sans';
+    font-size: 28px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #444444;
+}
+.shopping-cart{
+    width: 28px;
+    height: 21px;
+}
+
+
+.right-mid-bottom{
+    width: 804px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
 }
 
 .footer-b{
