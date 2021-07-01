@@ -84,7 +84,32 @@ footer{
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
+    flex-direction: column;
 
+}
+
+.responsive-link{
+    font-family: 'PT Sans';
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #767676;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration-style: dashed;
+
+    padding-top: 3px;
+
+
+
+}
+.responsive-link:hover{
+    text-decoration-style: none;
+    border: 0px;
+    padding-bottom: 0px;
+    max-height: 46px;
+    color: transparent;
 }
 
 .menu{
@@ -323,5 +348,12 @@ margin-inline-end: 5px;
 
 menu a{
     color: #ffffff;
+}
+
+.responsive-link a{
+    color: #767676;
+    text-decoration: none;
+    border-bottom: 2px dashed #767676;
+
 }
 
