@@ -111,6 +111,16 @@ footer{
     color: transparent;
 }
 
+
+
+
+
+
+
+
+
+
+
 .menu{
     background-color: #777777;
     display: flex;
@@ -165,6 +175,14 @@ menu a{
 }
 
 
+
+
+
+
+
+
+
+
 .slider{
     overflow: hidden;
     display: flex;
@@ -175,11 +193,21 @@ menu a{
 .slider img {
 margin-bottom: 30px;
 }
+
+
+
+
+
+
+
+
 .mid{
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
 }
+
+
 .mid-container{
     width: 980px;
     margin: 0 auto;
@@ -187,10 +215,13 @@ margin-bottom: 30px;
     justify-content: space-between;
 }
 
+
+
 .left-mid{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    margin-right: 22px;
 }
 
 .x-container{
@@ -265,10 +296,42 @@ margin-bottom: 30px;
     padding-top: 26px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .right-mid{
-    width:auto;
+    height: auto;
+    width: 804px;
+}
+
+.right-mid-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 804px;
     height: auto;
 
+    align-content: space-between;
+}
+
+.first-product-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.second-product-list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
 }
 .right-mid-bottom{
 
@@ -280,6 +343,8 @@ margin-bottom: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    
+    margin-right: 15px;
 
 }
 .product-format-inside{
@@ -332,12 +397,27 @@ width: 184px;
 }
 
 
+
+
+.pager{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 67px;
+    padding-top: 32px;
+}
+.pager-txt{
+    display: flex;
+    flex-direction: row;
+}
+
+
 .right-mid-bottom{
-    width: 804px;
+    width: 780px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-
+    border-top: 2px solid #777777;
+    padding-top: 29px;
 
 
 }
@@ -357,6 +437,14 @@ width: 184px;
     letter-spacing: 0.025em;
     color: #767676;
 }
+
+
+
+
+
+
+
+
 
 .footer-b{
     background-color: #777777;
@@ -432,6 +520,13 @@ text-decoration: underline;
     height: 38px;
 margin-inline-end: 5px;
 }
+
+
+
+
+
+
+
 
 
 
