@@ -30,6 +30,11 @@ html{
 
 
 
+
+
+
+
+
 .header{
     background-color:#dcdcdc;
 }
@@ -205,7 +210,7 @@ menu a{
 .slider .slick-arrow{
     position: absolute;
     top: 50%;
-    z-index: 10;
+    z-index: 1000;
     font-size: 0;
     width: 34px;
     height: 61px;
@@ -237,7 +242,7 @@ margin-bottom: 30px;
 /* Лента слайдов */
 .slick-track{
     display: flex;
-
+    align-items: center;
 }
 /* Слайд */
 .slick-slide{
@@ -395,6 +400,9 @@ margin-bottom: 30px;
 .expandable-menu{
 
 }
+.inside-menu{
+    margin-left: 10px;
+}
 
 
 .bullet-list{
@@ -405,10 +413,12 @@ margin-bottom: 30px;
     letter-spacing: 0.025em;
     color: #767676;
 
-    display: none;
-    position: absolute;
+    display: block;
 
 }
+
+
+
 .bullet-list a{
     color: inherit;
     display: block;
@@ -423,7 +433,6 @@ margin-bottom: 30px;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.025em;
-    color: #ffffff;
     line-height:22px;
     font-style: normal;
     text-decoration: none;
@@ -725,5 +734,12 @@ menu a{
     text-decoration: none;
 }
 
+.description:hover {
+    text-decoration: none;
+}
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
