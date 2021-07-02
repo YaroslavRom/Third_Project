@@ -1,12 +1,7 @@
 html{
     height: 100%;
 }
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 
-}
 .all-body {
     /*width: 980px;*/
     /*margin-right: 10px;*/
@@ -294,14 +289,20 @@ margin-bottom: 30px;
     letter-spacing: 0.025em;
     color: #767676;
 
+    position: relative;
+    display: inline-block;
+
 }
 
-.news-microwave{
-    font-size: 14px;
-    line-height: 22px;
-    text-decoration: underline;
+.menu-hovered:hover{
     color: #010101;
+    text-decoration: underline;
 }
+
+.expandable-menu{
+
+}
+
 
 .bullet-list{
     font-family: 'PT Sans';
@@ -311,6 +312,17 @@ margin-bottom: 30px;
     letter-spacing: 0.025em;
     color: #767676;
 
+    display: none;
+    position: absolute;
+
+}
+.bullet-list a{
+    color: inherit;
+    display: block;
+}
+
+.menu-hovered:hover .bullet-list {
+    display:block
 }
 
 .mid-txt a{
@@ -371,7 +383,6 @@ margin-bottom: 30px;
     margin-top: 20px;
 }
 .right-mid-bottom{
-
 }
 .product-format{
     width: 250px;
@@ -513,13 +524,17 @@ width: 184px;
 
 
 
+.footer-wrapper{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    align-items: end;
+}
 .footer-b{
     background-color: #777777;
     display: flex;
+    justify-content: center;
     width: 100%;
-
-
-
 }
 .footer-conrainer{
     width: 980px;
