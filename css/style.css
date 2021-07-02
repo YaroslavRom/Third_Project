@@ -210,7 +210,7 @@ menu a{
 .slider .slick-arrow{
     position: absolute;
     top: 50%;
-    z-index: 1000;
+    z-index: 3000;
     font-size: 0;
     width: 34px;
     height: 61px;
@@ -397,9 +397,14 @@ margin-bottom: 30px;
     text-decoration: underline;
 }
 
-.expandable-menu{
+.expandable-menu:hover +.bullet-list{
+    display: block;
 
 }
+.bullet-list:hover{
+    display: block;
+}
+
 .inside-menu{
     margin-left: 10px;
 }
@@ -413,7 +418,8 @@ margin-bottom: 30px;
     letter-spacing: 0.025em;
     color: #767676;
 
-    display: block;
+    display: none;
+
 
 }
 

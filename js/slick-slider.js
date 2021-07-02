@@ -4,10 +4,13 @@ $(document).ready(function () {
         autoplay: true,
         arrows:true,
         dots: false,
-        speed: 4000,
+        speed: 1000,
         easing:'ease',
         autoplaySpeed: 4000,
         fade:true,
+        waitForAnimate: false,
 
     });
 });
+
+
