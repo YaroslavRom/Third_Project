@@ -202,10 +202,16 @@ menu a{
 
     left: 80px;
 
-    position: relative;
 
 
 }
+/*.qq{*/
+/*    justify-content: center;*/
+/*    flex-wrap: wrap;*/
+/*    position: relative;*/
+
+
+/*}*/
 
 .slider .slick-arrow{
     position: absolute;
@@ -214,15 +220,13 @@ menu a{
     font-size: 0;
     width: 34px;
     height: 61px;
+
 }
 .slick-arrow .slick-prev{
-    position: absolute;
-    left: 0;
     background: url("../img/slider_left.png") 0 0 no-repeat;
 }
 .slick-arrow .slick-next{
-    position: absolute;
-    right: 0;
+
     background: url("../img/slider_right.png") 0 0 no-repeat;
 }
 
@@ -350,6 +354,9 @@ menu a{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+
+
+
 }
 
 
@@ -360,11 +367,17 @@ menu a{
     flex-direction: column;
     width: 176px;
     margin-left: 0;
+
+    position: relative;
+
 }
 
 .x-container{
     display: flex;
     justify-content: flex-end;
+
+    position: absolute;
+    top:355px
 
 
 }
@@ -382,6 +395,7 @@ menu a{
     flex-direction: column;
     align-items: center;
     margin-right: 20px  ;
+
 }
 .X-logo{
     width: 97px;
@@ -391,7 +405,6 @@ menu a{
     width: 176px;
     height: auto;
     margin-bottom: 58px;
-
 
 
 
