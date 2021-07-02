@@ -216,10 +216,12 @@ menu a{
     height: 61px;
 }
 .slick-arrow .slick-prev{
+    position: absolute;
     left: 0;
     background: url("../img/slider_left.png") 0 0 no-repeat;
 }
 .slick-arrow .slick-next{
+    position: absolute;
     right: 0;
     background: url("../img/slider_right.png") 0 0 no-repeat;
 }
