@@ -136,7 +136,7 @@ menu li:last-child:after{
     content: "";
 }
 
-a:hover{
+.main-menu-hover:hover{
     border-bottom: 2px solid #ffffff;
 
 }
@@ -159,23 +159,30 @@ a:hover{
 menu a{
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .b_img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 462px;
     margin-top: -62px;
     max-height: 462px;
 
+
+    width: 1248px;
+    height: 474px;
+
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -186,8 +193,12 @@ menu a{
     justify-content: center;
     flex-wrap: wrap;
     min-width: 0;
-    max-width: 980px;
+    max-width: 100%;
+
+    left: 80px;
+
     position: relative;
+
 
 }
 
@@ -195,15 +206,25 @@ menu a{
     position: absolute;
     top: 50%;
     z-index: 10;
+    font-size: 0;
+    width: 34px;
+    height: 61px;
 }
 .slick-arrow .slick-prev{
     left: 0;
+    background: url("../img/slider_left.png") 0 0 no-repeat;
 }
+.slick-arrow .slick-next{
+    right: 0;
+    background: url("../img/slider_right.png") 0 0 no-repeat;
+}
+
 .slider img {
 margin-bottom: 30px;
 }
 /* Слайдер */
 .slick-slider{
+
 }
 /* Слайдер запущен */
 .slick-slider.slick-initialized{}
@@ -219,13 +240,20 @@ margin-bottom: 30px;
 
 }
 /* Слайд */
-.slick-slide{}
+.slick-slide{
+
+}
 /* Слайд активный (показывается) */
-.slick-slide.slick-active{}
+.slick-slide.slick-active{
+
+}
 /* Слайд основной */
-.slick-slide.slick-current{}
+.slick-slide.slick-current{
+
+}
 /* Слайд по центру */
 .slick-slide.slick-center{
+
 
 }
 /* Клонированный слайд */
@@ -236,11 +264,16 @@ margin-bottom: 30px;
 }
 /* Стрелка влево */
 .slick-arrow.slick-prev{
-
+    left: 520px;
+    background-image: url("../img/slider_left.png");
+    border: none;
 }
 /* Стрелка вправо */
 .slick-arrow.slick-next{
-
+    right: 509px;
+    margin-right: auto;
+    background-image: url("../img/slider_right.png");
+    border: none;
 }
 /* Стрелка не активная */
 .slick-arrow.slick-disabled{}
@@ -507,6 +540,8 @@ width: 184px;
 
 
 
+
+
 .pager{
     display: flex;
     justify-content: center;
@@ -682,4 +717,13 @@ menu a{
     border-bottom: 2px dashed #767676;
 
 }
+
+.cart:hover{
+    text-decoration: none;
+}
+.shopping-cart:hover{
+    text-decoration: none;
+}
+
+
 
