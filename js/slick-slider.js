@@ -6,7 +6,7 @@ $(document).ready(function () {
         dots: false,
         speed: 1000,
         easing:'ease',
-        autoplaySpeed: 4000,
+        autoplaySpeed: 800,
         fade:true,
         waitForAnimate: false,
 

@@ -21,11 +21,11 @@ html{
     font-weight: 300;
     src: url('../fonts/open-sans-condensed-v15-latin-300.eot'); /* IE9 Compat Modes */
     src:
-    url('../fonts/open-sans-condensed-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/open-sans-condensed-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/open-sans-condensed-v15-latin-300.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/open-sans-condensed-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/open-sans-condensed-v15-latin-300.svg#OpenSansCondensed') format('svg'); /* Legacy iOS */
+            url('../fonts/open-sans-condensed-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../fonts/open-sans-condensed-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+            url('../fonts/open-sans-condensed-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+            url('../fonts/open-sans-condensed-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('../fonts/open-sans-condensed-v15-latin-300.svg#OpenSansCondensed') format('svg'); /* Legacy iOS */
 }
 
 
@@ -181,7 +181,7 @@ menu a{
     margin-left: auto;
     margin-right: auto;
     margin-top: -62px;
-    max-height: 462px;
+    max-height: 474px;
 
 
     width: 1248px;
@@ -225,7 +225,7 @@ menu a{
 }
 
 .slider img {
-margin-bottom: 30px;
+    margin-bottom: 6px;
 }
 /* Слайдер */
 .slick-slider{
@@ -237,7 +237,7 @@ margin-bottom: 30px;
 .slick-slider.slick-dotted{}
 /* Ограничивающая оболочка */
 .slick-list {
-     overflow: hidden;
+    overflow: hidden;
 }
 /* Лента слайдов */
 .slick-track{
@@ -295,14 +295,25 @@ margin-bottom: 30px;
 .content{
     display: flex;
     flex-direction: column;
+    width: 980px;
+    justify-content: center;
+    margin: 0 auto;
 }
+.child-container{
+    margin-left: 20px;
+    padding-left: 20px;
 
+}
 .mid{
     display: flex;
     flex-direction: column;
 
 }
 
+.bread-crumbs{
+    width: 980px;
+    float: left;
+}
 
 .log{
 
@@ -312,12 +323,16 @@ margin-bottom: 30px;
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #767676;
- 
-   
 
-    margin: 0 auto;
-    padding-right: 682px;
+
+
+
     margin-bottom: 27px;
+    display: flex;
+    float: left;
+    margin-left: 20px;
+
+
 
 }
 
@@ -375,7 +390,7 @@ margin-bottom: 30px;
     height: auto;
     margin-bottom: 58px;
 
-   
+
 
 
 }
@@ -401,12 +416,15 @@ margin-bottom: 30px;
     display: block;
 
 }
+
+.fixing-bullet-list{
+    margin-left: -20px;
+}
 .bullet-list:hover{
     display: block;
 }
 
 .inside-menu{
-    margin-left: 10px;
 }
 
 
@@ -417,9 +435,11 @@ margin-bottom: 30px;
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #767676;
+    width: auto;
+    list-style-position: outside;
+
 
     display: none;
-
 
 }
 
@@ -432,7 +452,21 @@ margin-bottom: 30px;
 
 .menu-hovered:hover .bullet-list {
     display:block
+
 }
+
+
+
+.bullet-list li::marker{
+    color: #767676;
+    font-size: 13px;
+
+}
+
+
+
+
+
 
 .mid-txt a{
     font-family: 'PT Sans';
@@ -499,7 +533,7 @@ margin-bottom: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
     margin-right: 15px;
 
 }
@@ -517,7 +551,7 @@ margin-bottom: 30px;
     margin-bottom: 21px;
 }
 .product-txt{
-width: 184px;
+    width: 184px;
     height: 33px;
     font-family: 'PT Sans';
     font-size: 18px;
@@ -534,7 +568,7 @@ width: 184px;
     width: 189px;
 }
 .product-price-cart{
- display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 
@@ -573,7 +607,7 @@ width: 184px;
     font-weight: 400;
     letter-spacing: 0.565em;
     color: #767676;
-   }
+}
 .pager-mid-txt{
     font-size: 18px;
     color: #444444;
@@ -582,6 +616,12 @@ width: 184px;
     font-weight: 400;
     letter-spacing: 0.565em;
 }
+
+
+
+
+
+
 
 
 
@@ -687,7 +727,7 @@ width: 184px;
 
 }
 .bottom-txt li{
-text-decoration: underline;
+    text-decoration: underline;
 }
 .f-right{
     background-color: transparent;
