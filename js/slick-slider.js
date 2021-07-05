@@ -13,4 +13,12 @@ $(document).ready(function () {
     });
 });
 
+$('.responsive-link').onclick(function (e){
+    e.preventDefault();
+    $('.forms-background').fadeIn(600);
+});
 
+$('.closing-x').click(function () {
+    $('.forms-background').fadeOut(600);
+
+})
