@@ -9,7 +9,7 @@ $(document).ready(function () {
         autoplaySpeed: 4000,
         fade:true,
         waitForAnimate: false,
-        
+
     });
 });
 

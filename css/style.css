@@ -12,6 +12,7 @@ html{
     flex-direction: column;
     font-family: 'PT Sans', sans-serif;
 
+
 }
 
 /* open-sans-condensed-300 - latin */
@@ -27,6 +28,23 @@ html{
             url('../fonts/open-sans-condensed-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
             url('../fonts/open-sans-condensed-v15-latin-300.svg#OpenSansCondensed') format('svg'); /* Legacy iOS */
 }
+
+
+
+
+.forms-background{
+
+    position: absolute;
+   z-index: 3020;
+    width: 9000px;
+    height: 100%;
+    opacity: 0.5;
+   /*display:none;*/
+    margin-top: -30px;
+}
+
+
+
 
 
 
@@ -215,24 +233,29 @@ menu a{
 
 .slider .slick-arrow{
     position: absolute;
-    top: 50%;
+    margin-top: 155px;
     z-index: 3000;
-    font-size: 0;
     width: 34px;
     height: 61px;
 
-}
-.slick-arrow .slick-prev{
-    background: url("../img/slider_left.png") 0 0 no-repeat;
-}
-.slick-arrow .slick-next{
 
-    background: url("../img/slider_right.png") 0 0 no-repeat;
+
 }
+/*.slick-arrow .slick-prev{*/
+
+/*    background: url("../img/slider_left.png") 0 0 no-repeat;*/
+/*    border: none;*/
+
+/*}*/
+/*.slick-arrow .slick-next{*/
+/*    position: absolute;*/
+/*    background: url("../img/slider_right.png") 0 0 no-repeat;*/
+
+/*}*/
 
 .slider img {
     margin-bottom: 6px;
-}
+   }
 /* Слайдер */
 .slick-slider{
 
@@ -247,8 +270,7 @@ menu a{
 }
 /* Лента слайдов */
 .slick-track{
-    display: flex;
-    align-items: center;
+  display: flex;
 }
 /* Слайд */
 .slick-slide{
@@ -275,16 +297,26 @@ menu a{
 }
 /* Стрелка влево */
 .slick-arrow.slick-prev{
-    left: 520px;
+    right:auto;
+    left:auto;
+    margin-right: 914px;
     background-image: url("../img/slider_left.png");
     border: none;
+
+    text-indent: -9999px !important;
+    color: transparent;
+
 }
 /* Стрелка вправо */
 .slick-arrow.slick-next{
-    right: 509px;
-    margin-right: auto;
+    right:auto;
+    left:auto;
+    margin-right: -914px;
     background-image: url("../img/slider_right.png");
     border: none;
+
+    text-indent: -9999px !important;
+    color: transparent;
 }
 /* Стрелка не активная */
 .slick-arrow.slick-disabled{}
