@@ -46,8 +46,11 @@
 
                     </ul>
                     <div class="form-link">
-                        <li class="responsive-link"><a href="#"> Обратная связь</a></li>
+                        <li class="responsive-link"><a href="#" onclick="a"> Обратная связь</a></li>
+
                         <div class="form-its-self">
+
+
                         <div class="close-form">
                                 <img src="img/closing_x.png" alt="x-img" class="closing-x">
                         </div>
@@ -60,34 +63,36 @@
 
                                         <span class="form-txt"> Ваше имя *</span>
                                         <br>
-                                        <input type="text"  class="form-name-txt" placeholder=""  required>
+                                        <input type="text"  class="form-name-txt" placeholder=""  minlength="2" required>
                                         <br>
 
                                         <span class="form-txt"> Телефон *</span>
                                         <br>
-                                        <input type="tel" class="form-phone-num" placeholder="+380 (99) 999 9999" height="40px" required>
+                                        <input type="tel" class="form-phone-num" placeholder=""  minlength="10" required>
                                         <br>
 
                                         <span class="form-txt"> Email *</span>
                                         <br>
-                                        <input type="text" class="form-mail" placeholder=""  required>
+                                        <input type="email" class="form-mail"  placeholder="Поле обязательно для заполнения" minlength="7" required>
                                         <br>
 
                                         <span class="form-txt"> Сообщение</span>
                                         <br>
-                                        <input type="text" class="form-body-text" placeholder="">
+                                        <textarea type="text" class="form-body-text"  placeholder="" minlength="4"></textarea>
                                     </form>
 
 
                                      <div class="send-form-block">
 
-                                 <li class="form-send">ОТПРАВИТЬ</li>
+                                 <li class="form-send"><a href="#">ОТПРАВИТЬ</a></li>
                                          </div>
                             </div>
-                            </div>
-                            <div class="forms-background">
+
 
                             </div>
+
+                        <div class="forms-background">
+                        </div>
                     </div>
                 </div>
 
